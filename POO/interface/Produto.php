@@ -5,7 +5,7 @@ class Produto implements OrcavelInterface{
     private $estoque;
     private $preco;
 
-    public function __contruct($nome, $estoque, $preco){
+    public function __construct($nome, $estoque, $preco){
         $this->nome = $nome;
         $this->estoque = $estoque;
         $this->preco = $preco;
